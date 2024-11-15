@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Back-End | ODS</title>
+    <!-- Link para o arquivo CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body class="pagina-ideias">
+    <!-- Back-Ground do Inicial do Site -->
+    <div class="faixa-inicial">
+        <h1>Ideias</h1>
+    </div>
+
+    <div class="paragrafo-ideias">
+        <p>A relação entre o desenvolvimento back-end e o Objetivo de Desenvolvimento Sustentável (ODS) 9, que aborda Indústria, Inovação e Infraestrutura, destaca o papel essencial da tecnologia no avanço global. O back-end, como coração funcional de sistemas e plataformas digitais, possibilita a criação de soluções que promovem inovação, melhoram a infraestrutura digital e conectam comunidades, alinhando-se diretamente às metas do ODS 9.
+
+        Nesta seção, exploramos como o desenvolvimento back-end pode impulsionar projetos transformadores, unindo tecnologia e sustentabilidade. Através de ideias que promovem a acessibilidade digital, fomentam a inovação industrial e facilitam parcerias estratégicas, mostramos como soluções baseadas em back-end podem contribuir para um futuro mais resiliente, conectado e sustentável.</p>
+    </div>
+
+    <div class="paragrafo esquerda">
+        <h2>Plataforma de Monitoramento de Infraestrutura Digital</h2>
+        <p>Criação de uma aplicação back-end que permita monitorar e gerenciar a infraestrutura digital de comunidades remotas.</p>
+
+            <h3>Descrição</h3>
+            <p>O sistema seria capaz de rastrear a conectividade de internet, identificar falhas e priorizar melhorias em regiões com pouca ou nenhuma cobertura.
+            Impacto no ODS 9:
+            Promove o desenvolvimento de infraestrutura resiliente, ajudando a expandir o acesso à internet, um pilar essencial para o avanço econômico e social.
+            Tecnologias Sugeridas:
+            Flask ou Django para o back-end, integrando APIs de telecomunicações e dashboards para análise de dados.
+            </p>
+            <img src="{{ url_for('static', filename='imagem/imagem6.jpg') }}" alt="imagem ilustrativa" class="imagem-ideias">
+    </div>
+
+    <div class="paragrafo-direita-ideias">
+        <h2>Marketplace para Inovação Tecnológica Sustentável</h2>
+        <p>Um sistema de e-commerce exclusivo para empresas e startups que desenvolvem produtos inovadores alinhados ao ODS 9.</p>
+        <h3>Descrição</h3>
+        <p>O back-end seria responsável por gerenciar a exibição de produtos, conexões entre empresas, e avaliações de impacto ambiental e social.
+            Impacto no ODS 9:
+            Facilita a disseminação de inovações tecnológicas, fomentando parcerias entre indústrias e apoiando soluções sustentáveis.
+            Tecnologias Sugeridas:
+            Uso de banco de dados como PostgreSQL para gerenciar produtos e transações, com APIs REST para integrações externas.</p>
+    </div>
+
+    <img src="{{ url_for('static', filename='imagem/imagem7.jpg') }}" alt="imagem ilustrativa" class="imagem-ideias2">
+    
+
+    <div class="paragrafo esquerda">
+        <h2> Rede de Colaboração entre Universidades e Indústrias</h2>
+        <p>Uma aplicação back-end que conecta universidades, centros de pesquisa e indústrias para colaboração em projetos de inovação e desenvolvimento sustentável.</p>
+        <h3>Descriação</h3>
+        <p>A plataforma poderia gerenciar propostas de pesquisa, parcerias e resultados de inovação tecnológica, com funcionalidades de autenticação para diferentes perfis (pesquisadores, empresas, ONGs).
+            Impacto no ODS 9:
+            Estimula a inovação ao conectar setores acadêmicos e industriais, melhorando a eficiência de projetos que atendam às necessidades globais de infraestrutura sustentável.
+            Tecnologias Sugeridas:
+            Flask ou Node.js para a API back-end, integrando serviços de autenticação e bancos de dados para controle de projetos.</p>
+    </div>
+  
+    <img src="{{ url_for('static', filename='imagem/imagem8.jpg') }}" alt="imagem ilustrativa" class="imagem-ideias3">
+
+    <!--Faixa Inferior com Informações-->
+    <div class="faixa-inferior">
+        <p>© 2024 Guilherme Nunes Ribeiro</p>
+    </div>
+
+    <!-- Imagem de Fundo -->
+    <img src="css/imagem/fundo.jpg" alt="">
+</body>
+</html>

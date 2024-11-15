@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Back-End | ODS</title>
+    <!-- Link para o arquivo CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <!-- Back-Ground do Inicial do Site -->
+    <div class="faixa-inicial">
+        <h1>Home</h1>
+    </div>
+
+    <!--Locais de Navegação-->
+    <div class="nav-container">
+        <div class="nav-box">
+            <a href="{{ url_for('projeto') }}">
+                <span>Projeto</span>
+            </a>
+        </div>
+        <div class="nav-box">
+            <a href="{{ url_for('ideias') }}">
+              <span>Ideias</span>
+            </a>
+        </div>
+        <div class="nav-box">
+            <a href="{{ url_for('autor') }}">
+              <span>Autor</span>
+            </a>
+        </div>
+        <div class="nav-box">
+            <a href="{{ url_for('creditos') }}">
+              <span>Creditos</span>
+            </a>
+        </div>
+    </div>
+
+    <!--Faixa Inferior com Informações-->
+    <div class="faixa-inferior">
+        <p>© 2024 Guilherme Nunes Ribeiro</p>
+    </div>
+
+    <!-- Imagem de Fundo -->
+    <img src="{{ url_for('static', filename='imagem/fundo.jpg') }}" alt="imagem ilustrativa">
+</body>
+</html>

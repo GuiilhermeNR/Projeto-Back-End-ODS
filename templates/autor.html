@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Back-End | ODS</title>
+    <!-- Link para o arquivo CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body class="pagina-autor">
+    <!-- Back-Ground do Inicial do Site -->
+    <div class="faixa-inicial">
+        <h1>Autor</h1>
+    </div>
+
+    <div class="texto-autor">
+        <h2>Um Pouco Sobre Mim</h2>
+        <p>Olá sou Guilherme Nunes Ribeiro, autor deste site e programador iniciante. O site tem o objetivo de espalhar o conhecimento sobre as ideias e trabalho na áreas da programação juntamente com os Objetivos de Desenvolvimento Sustentavel (ODS), além disso me serviu como forma de aprendizado para aprimorar minhas ideias e habilidades de programador tanto Front=End como meu foco, o Back-End. futuramente pretendendo trazer mais atualizações no meu portifolio e github mostrando minha evolução ao criar projetos diversos como sites, programas e quem sabe futuramente jogos.</p>
+
+        <img src="{{ url_for('static', filename='imagem/imagem5.jpg') }}" alt="imagem ilustrativa" class="imagem3">
+
+        <h3>Links de Contato:</h3>
+        <a href="https://www.linkedin.com/in/guilherme-nunes-3a4184306/">linkedin</a>
+        <a href="https://github.com/GuiilhermeNR">github</a>
+    </div>
+
+    <!--Faixa Inferior com Informações-->
+    <div class="faixa-inferior">
+        <p>© 2024 Guilherme Nunes Ribeiro</p>
+    </div>
+
+    <!-- Imagem de Fundo -->
+    <img src="css/imagem/fundo.jpg" alt="">
+</body>
+</html>
